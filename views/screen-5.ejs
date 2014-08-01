@@ -1,0 +1,15 @@
+
+<% include header %>
+
+<% include defaults %>
+
+    <!-- what we do with javascript is really the only thing that changes page to page -->
+    <script>
+      var login = "<%= name %>";
+      var read_1 = "<%= read[0] %>";
+      var read_2 = "<%= read[1] %>";
+     	var read_3 = "<%= read[2] %>";
+    </script>
+    <script src="/public/javascripts/screen-5.js"></script>
+
+<% include footer %>
