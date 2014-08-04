@@ -7,12 +7,12 @@ $( document ).ready(function() {
 $(document).keypress(function(e) {
     if(e.which == 13 && ready == true) {
       var login = document.getElementById("login-name");
-      if (login.value == 'read 1' || login.value == "'read 1'") {
+      if (login.value == 'read 1' || login.value == "'read 1'" || login.value == "read #1") {
         // we may proceed 
         window.location = "/4/" + prof_name + "/" + read_1 + read_2 + read_3;
-      } else if (login.value == 'read 2' || login.value == "'read 2'" ) {
+      } else if (login.value == 'read 2' || login.value == "'read 2'" || login.value == "read #2") {
         window.location = "/5/" + prof_name + "/" + read_1 + read_2 + read_3;
-      } else if (login.value == 'read 3' || login.value == "'read 3'" ) {
+      } else if (login.value == 'read 3' || login.value == "'read 3'" || login.value == "read #3") {
         window.location = "/6/" + prof_name + "/" + read_1 + read_2 + read_3;
       } else if ((login.value == 'exit' || login.value == "'exit'") && (read_1 == 1 && read_2 == 1 && read_3 == 1)) {
         window.location = "/7/" + prof_name + "/" + read_1 + read_2 + read_3;
@@ -31,25 +31,25 @@ var animations = {
     } else {
       prompt += " ^";
     }
-    prompt += " ```FROM: Cpt. A. Zitek (Vessel ID K109)`` SUBJECT: Arecibo Transmission \n" + 
+    prompt += " ```FROM: Cpt. A. Zitek (Vessel 9a-c570)`` SUBJECT: Arecibo Transmission \n" + 
     " ``2) " + today.toDateString();
     if (read_2 == 1) {
       prompt += " = `";
     } else {
       prompt += " ^";
     } 
-    prompt += " ```FROM: Cpt. A. Zitek (Vessel ID K109)`` SUBJECT: Arecibo Transmission Decoding: Unusual Features \n" + 
+    prompt += " ```FROM: Cpt. A. Zitek (Vessel 9a-c570)`` SUBJECT: Arecibo Transmission Decoding: Unusual Features \n" + 
     " ``3) " + today.toDateString();
     if (read_3 == 1) {
       prompt += " *";
     } else {
       prompt += " |";
     } 
-    prompt += "``FROM: Cpt. A. Zitek (Vessel ID K109)`` SUBJECT: Automated Distress Signal Near 56x8 - w89 \n" + 
-    "`` --> type 'read #' where # is the message you wish to view\n";
+    prompt += "``FROM: Cpt. A. Zitek (Vessel 9a-c570)`` SUBJECT: Automated Distress Signal Near (47.32, +6.31, 11.7) \n";
     if (read_1 == 1 && read_2 == 1 && read_3 == 1) {
       prompt += "`` --> type 'exit' to leave mailbox\n";    
     }
+    prompt += "`` --> type 'read #' where # is the message you wish to view\n";
     prompt += "prof@system ~$\n";
     var line = document.getElementById("cmd-line");
 

@@ -24,7 +24,7 @@ var animations = {
     var today = new Date();
     today.setDate(today.getDate());
     var prompt = "" +
-    "\n" + " ``This is an automated distress message from ship 67u6fu Captained by Andrew Zitek near 434x344.\n" +
+    "\n" + " ``This is an automated distress message from vessel 9a-c570 near supergalactic coordinates (47.37°, +6.32°, 11.7).\n" +
     "\n" + " ``^ Video Clip Attachment" +
     "\n ``--> type 'play v' to play video " +
     "\n ``--> type 'back' to return to inbox " +

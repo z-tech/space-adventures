@@ -24,12 +24,14 @@ var animations = {
     var today = new Date();
     today.setDate(today.getDate());
     var prompt = "" +
-    "\n ``Prof. " + prof_name + ", \n" + " `` I'm having trouble making sense of this Arecibo message. It's got to be the strangest I've ever seen, if not ever seen. \n\n ```I know you're gonna think I'm pranking you with this, but I'm pretty sure they sent us Ramsey's number R(74de5f) -- the hex value of my ship identification number." +
-    "\n\nprof@system ~$\n";
+    "\n ``Prof. " + prof_name + ", \n\n" + " ``A fraud !!! ??? !!! \n\n  ``Someone thought it would be funny to hack up an arecibo with some choice features: \n\n ``They're claiming to have computed Ramsey's number R(9ac570) -- the hex value of my ship identification number. \n\n ``There's also a mention of the formula 8 = D?? ...actually clever. What if aliens sent us dick jokes? Hahahah. " +
+    "\n\n ``Now I'm just wondering how in the hell they got the message out here? How many people know my ship #? \n\n ``The end of the message looks like a calling card but I never got a response. \n\n ``ZITS " 
+    + "\n\n ``--> type 'back' to return to inbox "
+    + "\nprof@system ~$\n";
     var line = document.getElementById("cmd-line");
 
     if(index == 0) {
-     $("#cmd-line").append("<div style='background: #fff; color: #000;'> &nbsp; FICUS 4.3 &nbsp; &nbsp; &nbsp; &nbsp; MESSSAGE BODY <span style='float: right;'>FROM: Captain A. Zitek (Vessel ID 8485) &nbsp; &nbsp; &nbsp;</span></div>"); 
+     $("#cmd-line").append("<div style='background: #fff; color: #000;'> &nbsp; FICUS 4.3 &nbsp; &nbsp; &nbsp; &nbsp; MESSSAGE BODY <span style='float: right;'>FROM: Captain A. Zitek (Vessel 9a-c570) &nbsp; &nbsp; &nbsp;</span></div>"); 
       $("#cmd-line").append("<br>");      
       line.innerHTML += prompt[0];
     } else {

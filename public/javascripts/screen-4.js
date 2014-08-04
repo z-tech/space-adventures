@@ -24,7 +24,7 @@ var animations = {
     var today = new Date();
     today.setDate(today.getDate());
     var prompt = "" +
-    "\n ```Prof. " + prof_name + ", \n\n" + " `` Hot damn, another Arecibo! Picking it up out here out in 8934edj3. \n\n ```This makes three fresh contacts with extraterrestrial life in two years -- oughta be some sort of record for that? " +
+    "\n ```Prof. " + prof_name + ", \n\n" + " `` Hot damn, another Arecibo! Picking it up near the supergalactic pole. \n\n ```This makes three fresh contacts with extraterrestrial life in two years -- there oughta be some sort of record for that? " +
     "\n\n ```Decoding update and contact documents to come." +
     "\n\n ```Best," +
     "\n ```Capt. A. Zitek" +

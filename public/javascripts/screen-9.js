@@ -66,7 +66,7 @@ var animations = {
     } else {
       if (arecibo[index] == ' ') {
         //do nothing 
-        $("#cmd-line").append("<br style='float: left;'>");
+        $("#cmd-line").append("<div class='break-line'><p>&nbsp;</p></div>"); 
       } else if (arecibo[index] == 1) {
         $("#cmd-line").append("<div class='b-tile'></div>");    
       } else if (arecibo[index] == 0) {
@@ -79,8 +79,6 @@ var animations = {
         animations.welcome(index + 1);
       }, 1);
     } else {
-      $("#cmd-line").append("<input type='text' id='login-name' placeholder='>'>");
-      $("#login-name").focus();
       ready = true;
     }
   }
