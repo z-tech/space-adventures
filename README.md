@@ -4,9 +4,9 @@ This is an [Express web framework](http://expressjs.com/) app for [Node.js](http
 
 ![alt text](http://oi58.tinypic.com/2iazatz.jpg "Mystery space adventure screenshot")
 
-## Aventure Guide
+## Adventure Guide
 
-The adventure was designed to be stand alone, but if you find yourself lost at any point, you may refer to this list of actions (in chronological order). 
+The adventure was designed to be stand alone with no instructions, kinda like [Myst](http://en.wikipedia.org/wiki/Myst) the grapic adventure puzzle video game. If you find yourself lost at any point, you may refer to this list of actions (written in chronological order).
 
 *brackets mean type the value of the text in the brackets(e.g. [Full name] for me = Andrew Zitek)
 
