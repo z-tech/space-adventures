@@ -1,6 +1,6 @@
-# Mystery space adventures await!
+# Space adventures await!
 
-This is an [Express](http://expressjs.com/) web framework app for [Node.js](https://nodejs.org/) hosted on Heroku. (It only loosely uses Express as no data is actually stored. Everything is sent using URL parameters.)
+This is an [Express web framework](http://expressjs.com/) app for [Node.js](https://nodejs.org/) hosted on Heroku. (It only loosely uses Express as no data is actually stored. Everything is sent using URL parameters.)
 
 ![alt text](http://oi58.tinypic.com/2iazatz.jpg "Mystery space adventure screenshot")
 
@@ -35,6 +35,6 @@ The adventure was designed to be stand alone, but if you find yourself lost at a
 21.) 'play v'
 22.) THE END
 
-######## SUMMARY (SPOILERS) ##########
+## Summary (SPOILERS)
 
 The user is immersed into the character of a professor at a deep space research laboratory. Andrew Zitek is a ship captain who encounters an impossibly intelligent form of life that has a shockingly intricate understanding of human comedy. The professor must reach out to this life form to save Andrew Zitek. What motivates the extraterrestrials to make contact with humans in the first place is up to the user to decide. 
