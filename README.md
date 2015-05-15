@@ -1,6 +1,6 @@
 # Space adventures await!
 
-This is an [Express web framework](http://expressjs.com/) app for [Node.js](https://nodejs.org/) hosted on Heroku. (It only loosely uses Express as no data is actually stored. Everything is sent using URL parameters.)
+This is an [Express web framework](http://expressjs.com/) app for [Node.js](https://nodejs.org/) hosted on Heroku. (It loosely uses Express--no data is actually stored. Everything is sent using URL parameters.)
 
 ![alt text](http://oi58.tinypic.com/2iazatz.jpg "Mystery space adventure screenshot")
 
