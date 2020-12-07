@@ -1,7 +1,9 @@
 # Space adventures await!
 
 UPDATE DEC 6, 2020:
-I made this game for/ with my friends in 2015. I haven't touched it since, but Heroku has helpfully kept it running ever since! You can play parts of it here:
+I made this game for/ with my friends in 2015. I haven't touched it since, but Heroku has kept it running!
+
+You can play parts of it here:
 http://zitek-space-adventures.herokuapp.com/
 
 ## Adventure Guide
