@@ -1,8 +1,8 @@
 # Space adventures await!
 
-This is an [Express web framework](http://expressjs.com/) app for [Node.js](https://nodejs.org/) hosted on Heroku. (It loosely uses Express--no data is actually stored. Everything is sent using URL parameters.)
-
-![alt text](http://oi58.tinypic.com/2iazatz.jpg "Mystery space adventure screenshot")
+UPDATE DEC 6, 2020:
+I made this game for/ with my friends in 2015. I haven't touched it since, but Heroku has helpfully kept it running ever since! You can play parts of it here:
+http://zitek-space-adventures.herokuapp.com/
 
 ## Adventure Guide
 
